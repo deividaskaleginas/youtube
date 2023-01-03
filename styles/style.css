@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.625rem 40px 0 1.5625rem;
+}
+
+/*  Burger - Logo   */
+.burger-logo-container {
+  display: flex;
+  align-items: center;
+  gap: 1.5625rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.3125rem;
+}
+
+.logo > svg {
+  fill: red;
+}
+
+.burger-menu {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+}
+
+.burger-menu:hover {
+  background-color: rgb(241, 240, 240);
+}
+
+.logo-ref {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+/*  Search */
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-input {
+  position: relative;
+}
+
+.search {
+  border-top-left-radius: 1.5625rem;
+  border-bottom-left-radius: 1.5625rem;
+  border: 1px solid grey;
+  width: 400px;
+  height: 45px;
+}
+
+.search::placeholder {
+  font-size: 18px;
+  padding-left: 20px;
+  color: rgb(189, 183, 183);
+}
+
+.bi-keyboard {
+  position: absolute;
+  top: 50%;
+  left: 93%;
+  transform: translate(-50%, -50%);
+}
+
+.bi-keyboard:hover {
+  fill: rgb(184, 169, 169);
+}
+
+.search-button {
+  height: 45px;
+  width: 70px;
+  border: 1px solid grey;
+  border-top-right-radius: 1.5625rem;
+  border-bottom-right-radius: 1.5625rem;
+}
+
+.search-button:hover {
+  background-color: rgb(228, 227, 227);
+}
+
+.search-voice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 25px;
+  background-color: rgb(228, 227, 227);
+}
+
+.search-voice:hover {
+  background-color: rgb(241, 240, 240);
+}
+
+/*  User right side */
+.user-right-side {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.user-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  width: 45px;
+  height: 45px;
+}
+
+.user-icons:hover {
+  background-color: rgb(241, 240, 240);
+}
+
+.user-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  width: 32px;
+  height: 32px;
+  color: #fff;
+  background-color: rgb(41, 162, 136);
+}
